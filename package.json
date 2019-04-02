@@ -5,8 +5,8 @@
   "author": "Jason Quense <monastic.panic@gmail.com>",
   "repository": "react-bootstrap/react-overlays",
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "lib/es/index.js",
+  "main": "index.js",
+  "module": "es/index.js",
   "files": [
     "lib"
   ],
