@@ -26,7 +26,6 @@
     "build:cjs": "babel src -d lib --delete-dir-on-start",
     "build": "yarn build:cjs && yarn build:esm",
     "deploy-docs": "yarn --cwd www build --prefix-paths && gh-pages -d www/public",
-    "precommit": "lint-staged",
     "prepublishOnly": "yarn build",
     "start": "yarn --cwd www start",
     "lint": "eslint 'www/*.js' www/src src test '*.js'",
